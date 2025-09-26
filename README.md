@@ -9,15 +9,15 @@ It offers product browsing, advanced search and filters, cart management, secure
 ### ✅ User Features  
 - 🔒 *Authentication & Security* – Register, log in, and manage profiles with *JWT-based authentication*.  
 - 🛍 *Product Browsing* – Search, filter, and explore products effortlessly.  
-- 🛒 *Shopping Cart* – Add, update, and checkout items smoothly.  
+- 🛒 *Shopping Cart* – Add and checkout items smoothly.  
 - 💳 *Payments* – Integrated with *Stripe* for secure and reliable transactions.  
-- 📦 *Orders* – Track order history, monitor delivery status, and manage returns.  
+- 📦 *Orders* – Track order history and view delivery status.  
 
 ### ⚙ Admin Features  
-- 🛠 *Product Management* – Add, edit, or remove products with ease.  
+- 🛠 *Product Management* – Add and remove products with ease.  
 - 📂 *Category Management* – Organize products under categories for better navigation.  
-- 📑 *Order Management* – View, process, and update customer orders.  
-- 👥 *User Management* – Manage user accounts, roles, and permissions.  
+- 📑 *Order Management* – View and update customer orders.  
+ 
 
 ---
 
@@ -55,21 +55,21 @@ cd mern-ecommerce
 #### Backend
 
 ```bash
-cd ../backend
+cd backend
 npm install
 ```
 
 #### Frontend
 
 ```bash
-cd ../frontend
+cd frontend
 npm install
 ```
 
 #### Admin
 
 ```bash
-cd ../admin
+cd admin
 npm install
 ```
 
@@ -77,7 +77,7 @@ npm install
 
 **Backend**
 - Create a `.env` file in the `backend` directory.
-- Add the following variables with appropriate values
+- Add the below variables with appropriate values:
 
 ```bash
 MONGODB_URI=your_mongodb_connection_string
@@ -95,16 +95,16 @@ STRIPE_SECRET_KEY=your_stripe_secret_key
 
 **Frontend**
 - Create a `.env` file in the `frontend` directory
-- Add the following variable:
+- Add the below variable:
 ```bash
-VITE_BACKEND_URL = "http://localhost:4000"
+VITE_BACKEND_URL="http://localhost:4000"
 ```
 
 **Admin**
 - Create a `.env` file in the `admin` directory
-- Add the following variable:
+- Add the below variable:
 ```bash
-VITE_BACKEND_URL = "http://localhost:4000"
+VITE_BACKEND_URL="http://localhost:4000"
 ```
 
 ### 4. Run the application
@@ -112,20 +112,20 @@ VITE_BACKEND_URL = "http://localhost:4000"
    #### Backend
 
 ```bash
-cd ../backend
+cd backend
 npm start server
 ```
 
 #### Frontend
 
 ```bash
-cd ../frontend
+cd frontend
 npm run dev
 ```
 
 #### Admin
 
 ```bash
-cd ../admin
+cd admin
 npm run dev
 ```
